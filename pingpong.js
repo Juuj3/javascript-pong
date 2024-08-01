@@ -56,7 +56,8 @@ function Borda(){
     }
 }
 
-//função criar raquete
+//função responsável por criar o retângulo que representa a raquete 
+
 function criaRaquete(xBolinha, yRaquete, larguraRaquete, alturaRaquete){
     fill("blue");
     rect(xRaquete, yRaquete, larguraRaquete, alturaRaquete);
