@@ -16,7 +16,7 @@ function draw(){
     //função responsável pelo "desenho e animação da mesa"
     //aqui vou por a cor da "mesa"
     //A cor da mesa é em rgb
-    background(128,128,0); 
+    background(147,112,219); 
     //chamando a função cria bolinha para criar a bolinha
     criaBolinha(xBolinha, yBolinha, tamBolinha);
     //chamando a função mov bolinha
@@ -43,4 +43,9 @@ function Borda(){
     if (yBolinha > height || yBolinha < 0){
         yvelocidadeBolinha *= -1;
     }
+}
+
+//função criar raquete
+function criaRaquete(){
+    
 }
